@@ -1,30 +1,14 @@
 <script lang="ts">
-  export let name: string;
 </script>
 
 <main>
-  <!-- Some tailwindcss -->
-  <h1 class="text-[#ff3e00] uppercase text-6xl font-extralight py-12">
-    Hello {name}!
-  </h1>
-  <p>
-    Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-    how to build Svelte apps.
-  </p>
+  <div
+    class="w-screen h-screen fixed top-0 left-0 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500"
+  >
+    <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <p class="text-5xl font-bold text-white drop-shadow-xl">
+        Under Construction 🏗️
+      </p>
+    </div>
+  </div>
 </main>
-
-<style>
-  /* <style> tags still work! */
-  main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
-</style>
